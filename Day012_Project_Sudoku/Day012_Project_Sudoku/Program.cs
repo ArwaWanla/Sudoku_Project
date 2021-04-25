@@ -5,7 +5,6 @@ namespace Day012_Project_Sudoku
 	class Program
 	{
 
-
 		public static void DisplayBoard(int[,] Board, int rows, int column)
 		{
 			//to Display the initial Board
@@ -52,12 +51,12 @@ namespace Day012_Project_Sudoku
                 }
 			}
 
-
-
 		return true;	
+
 		}
 
 		public static int[,] GetUserInput(int numInput, int[,] newBoard)
+		
 		{
 
 			//[number,row,col]
@@ -94,19 +93,6 @@ namespace Day012_Project_Sudoku
 				}
 
 				newBoard[row, col] = UserNumber;
-
-				//while (!CheckUserInput(newBoard, row, col, UserNumber))
-				//{
-				//    Console.WriteLine("\n!!ERROR: Row Conflict\n**");
-				//    Console.Write("\n Enter the ROW number : ");
-				//    row = Convert.ToInt32(Console.ReadLine());
-
-				//    Console.Write("\n Enter the COLUMN number : ");
-				//    col = Convert.ToInt32(Console.ReadLine());
-				//    newBoard[row, col] = UserNumber;
-				//}
-
-
 			}
 
 			return newBoard;
@@ -211,10 +197,11 @@ namespace Day012_Project_Sudoku
                     }
                 }
             }
-			// if there is no clash, it's safe
+			//valid in the block
 			return true;
 
 		}
+
 		public static int[] Blocks(int row, int col)
 		{
 	
@@ -264,10 +251,8 @@ namespace Day012_Project_Sudoku
 
 			return boxStart;
 		} 
-		// Driver Code
-
-
-
+		
+		// Main Code
 		public static void Main(String[] args)
 		{
 			
@@ -340,10 +325,8 @@ namespace Day012_Project_Sudoku
 				
 				newBoard = GetUserInput(nInput, newBoard);// Receive user inputs
 
-
-
-				Console.WriteLine("\n-------------The Board Before Solving ?---------------");
-				Console.WriteLine("\n---------------------------------------");
+				Console.WriteLine("\n-------------The Board Before Solving ---------------\n");
+				
 				DisplayBoard(newBoard, NumRows, NumColumns);
 				Console.WriteLine("\n---------------------------------------");
 				//solve
@@ -364,15 +347,10 @@ namespace Day012_Project_Sudoku
 
 				Console.WriteLine("Do you want to play again Sudoku: (y/n)");
 				userWantPlay = Console.ReadLine();
-				
-
 
 			}
 
-
-
 		}
-
 
 	}
 }

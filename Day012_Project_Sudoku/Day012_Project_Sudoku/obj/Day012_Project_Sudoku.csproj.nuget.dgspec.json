@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arwawanla/Projects/Day012_Project_Sudoku/Day012_Project_Sudoku/Day012_Project_Sudoku.csproj": {}
+    "/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/Day012_Project_Sudoku.csproj": {}
   },
   "projects": {
-    "/Users/arwawanla/Projects/Day012_Project_Sudoku/Day012_Project_Sudoku/Day012_Project_Sudoku.csproj": {
+    "/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/Day012_Project_Sudoku.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arwawanla/Projects/Day012_Project_Sudoku/Day012_Project_Sudoku/Day012_Project_Sudoku.csproj",
+        "projectUniqueName": "/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/Day012_Project_Sudoku.csproj",
         "projectName": "Day012_Project_Sudoku",
-        "projectPath": "/Users/arwawanla/Projects/Day012_Project_Sudoku/Day012_Project_Sudoku/Day012_Project_Sudoku.csproj",
+        "projectPath": "/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/Day012_Project_Sudoku.csproj",
         "packagesPath": "/Users/arwawanla/.nuget/packages/",
-        "outputPath": "/Users/arwawanla/Projects/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/",
+        "outputPath": "/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arwawanla/.config/NuGet/NuGet.Config"

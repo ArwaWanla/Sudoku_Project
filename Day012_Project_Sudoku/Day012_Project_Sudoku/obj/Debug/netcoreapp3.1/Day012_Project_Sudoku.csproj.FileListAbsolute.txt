@@ -10,3 +10,15 @@
 /Users/arwawanla/Projects/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/Debug/netcoreapp3.1/Day012_Project_Sudoku.dll
 /Users/arwawanla/Projects/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/Debug/netcoreapp3.1/Day012_Project_Sudoku.pdb
 /Users/arwawanla/Projects/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/Debug/netcoreapp3.1/Day012_Project_Sudoku.genruntimeconfig.cache
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/bin/Debug/netcoreapp3.1/Day012_Project_Sudoku.deps.json
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/bin/Debug/netcoreapp3.1/Day012_Project_Sudoku.runtimeconfig.json
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/bin/Debug/netcoreapp3.1/Day012_Project_Sudoku.runtimeconfig.dev.json
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/bin/Debug/netcoreapp3.1/Day012_Project_Sudoku.dll
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/bin/Debug/netcoreapp3.1/Day012_Project_Sudoku.pdb
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/Debug/netcoreapp3.1/Day012_Project_Sudoku.csprojAssemblyReference.cache
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/Debug/netcoreapp3.1/Day012_Project_Sudoku.AssemblyInfoInputs.cache
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/Debug/netcoreapp3.1/Day012_Project_Sudoku.AssemblyInfo.cs
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/Debug/netcoreapp3.1/Day012_Project_Sudoku.csproj.CoreCompileInputs.cache
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/Debug/netcoreapp3.1/Day012_Project_Sudoku.dll
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/Debug/netcoreapp3.1/Day012_Project_Sudoku.pdb
+/Users/arwawanla/Sudoku_Project/Day012_Project_Sudoku/Day012_Project_Sudoku/obj/Debug/netcoreapp3.1/Day012_Project_Sudoku.genruntimeconfig.cache
