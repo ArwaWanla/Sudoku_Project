@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{C27DE61B-47AA-47F6-96F8-6FBAFF1D3C24}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Day012_Project_Sudoku/Program.cs">
+    <Files>
+      <File FileName="Day012_Project_Sudoku/Program.cs" Line="75" Column="67" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Day012_Project_Sudoku" expanded="True">
+            <Node name="Day012_Project_Sudoku" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Day012__Project__Sudoku PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
