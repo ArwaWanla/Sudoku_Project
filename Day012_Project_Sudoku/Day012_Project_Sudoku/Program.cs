@@ -22,39 +22,7 @@ namespace Day012_Project_Sudoku
 				Console.WriteLine("|");
 			}
 		}
-		public static bool CheckUserInput(int[,] board, int row, int col, int num)
-		{
-			//row clash, hint try another row	
-			//column clash error, hint try another row	
-			for (int i = 0; i < 9; i++)
-			{
-				if (board[row, i]== num )
-				{
-					return  false;
-					
-				}
-                else
-                {
-					return true;
-                }
-			}
-
-			for (int i = 0; i < 9; i++)
-			{
-				if (board[col, i] == num)
-				{
-					return false;
-				}
-                else
-                {
-					return true;
-                }
-			}
-
-		return true;	
-
-		}
-
+		
 		public static int[,] GetUserInput(int numInput, int[,] newBoard)
 		
 		{
@@ -71,7 +39,7 @@ namespace Day012_Project_Sudoku
 
 				while (UserNumber <= 0)
                 {
-					Console.WriteLine("\n!!ERROR: NUMBER MUST BE GREATER THAN 0  **\n");
+					Console.WriteLine("\n!!ERROR: NUMBER MUST BE GREATER THAN 0!! ");
 					Console.Write("\n Enter the Number {0} :", i + 1);
 					UserNumber = Convert.ToInt32(Console.ReadLine());
 				}
@@ -84,7 +52,7 @@ namespace Day012_Project_Sudoku
 
 				while (!ValidPlacement(newBoard, row, col, UserNumber))
 				{
-					Console.WriteLine("\n!!ERROR: CONFLICT!!**\n");
+					Console.WriteLine("!!ERROR: CONFLICT!!");
 					Console.Write("\n Enter the ROW number : ");
 					row = Convert.ToInt32(Console.ReadLine());
 
@@ -168,6 +136,7 @@ namespace Day012_Project_Sudoku
 			{
 				if (board[row, i] == num)
 				{
+					Console.WriteLine("\n!!ERROE!!:Enter Another row!!");
 					return false;
 				}
 			}
@@ -178,6 +147,7 @@ namespace Day012_Project_Sudoku
 
 				if (board[i, col] == num)
 				{
+					Console.WriteLine("\n!!ERROE!!:Enter Another column!!");
 					return false;
 				}
 			}
@@ -193,6 +163,7 @@ namespace Day012_Project_Sudoku
                 {
                     if (board[i,j]==num)
                     {
+						Console.WriteLine("\n!!ERROE!!:Invalid placement in the Box!!");
 						return false;
                     }
                 }
