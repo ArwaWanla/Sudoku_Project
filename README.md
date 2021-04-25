@@ -22,3 +22,8 @@ Each time placing a number in an empty cell, the program does recursion to check
 
 ## Reference
 [1] Coelho, L., & Laporte, G. (2014). A comparison of several enumerative algorithms for Sudoku. _The Journal of the Operational Research Society,_  _65_(10), 1602-1610. Retrieved April 24, 2021, from http://www.jstor.org/stable/24505021
+
+# (فريق ابطال الديجتال)Team Members:
+## Arwa Wan La (اروى وان لا)
+## Rahaf AlQhtani( رهف القحطاني)
+## Nada AlOtaibi(ندى العتيبي)
